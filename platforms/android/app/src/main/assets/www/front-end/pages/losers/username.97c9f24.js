@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{306:function(e,t,n){"use strict";n.r(t);var r=n(63),component=Object(r.a)({},(function(){var e=this.$createElement;return(this._self._c||e)("div",[this._v("\n  This is the user page with a static username\n")])}),[],!1,null,null,null);t.default=component.exports}}]);
