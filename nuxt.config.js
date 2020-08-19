@@ -11,6 +11,16 @@ export default {
    ** See https://nuxtjs.org/api/configuration-target
    */
   target: 'server',
+  router: {
+    extendRoutes(routes) {
+      routes.unshift({
+        name: 'stuff',
+        path: '/bosers/:username/any',
+        component: '@/pages/bosers/any.vue',
+        props: true,
+      })
+    },
+  },
   generate: {
     dir: 'www',
   },
